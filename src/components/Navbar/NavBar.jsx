@@ -15,8 +15,7 @@ const NavBar = () => {
     <nav className="relative pb-10 lg:border-b-2">
       <div className="py-5 px-5 lg:px-20 flex justify-between items-center relative">
         {/* Logo Section */}
-        <div className="flex flex-col items-center">
-          <img src="../../public/assets/logo.png" alt="" className="w-12" />
+        <div>
           <h1 className="text-sm lg:text-base font-Poppins font-medium">
             Homies
           </h1>
