@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/room-details/:id", // Adding dynamic :id for room details
+    path: "/room-details", 
     element: (
       <Suspense fallback={loadingPic}>
         <RoomDetails />
