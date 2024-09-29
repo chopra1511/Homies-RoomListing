@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-import loading from "./assets/loading.gif";
+import loading from "/assets/loading.gif";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router";
 

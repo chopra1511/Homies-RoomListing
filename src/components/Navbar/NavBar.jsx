@@ -1,7 +1,6 @@
 import React from "react";
 import "@flaticon/flaticon-uicons/css/all/all.css";
 import { IconButton } from "@mui/material";
-import logo from "../../assets/logo.png";
 import SearchBar from "./SearchBar";
 
 // Reusable component for icons
@@ -17,7 +16,7 @@ const NavBar = () => {
       <div className="py-5 px-5 lg:px-20 flex justify-between items-center relative">
         {/* Logo Section */}
         <div className="flex flex-col items-center">
-          <img src={logo} alt="" className="w-12" />
+          <img src="../../public/assets/logo.png" alt="" className="w-12" />
           <h1 className="text-sm lg:text-base font-Poppins font-medium">
             Homies
           </h1>
